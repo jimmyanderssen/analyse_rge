@@ -4,7 +4,7 @@ library(dplyr)
 
 # Lire le fichier Excel
 data <- read_excel(
-  "C:/Users/ugpst/Documents/OTHER FILES/dossier stagiaire2/essai Render/data -- act urg 2 -- stat depot.xlsx",
+  "data -- act urg 2 -- stat depot.xlsx",
   range = "B3:E13",
   col_names = TRUE
 )
